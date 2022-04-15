@@ -1,0 +1,157 @@
+/* {{--VANES ada ubah (class line 70)}} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  :root {
+    --main-color: #ee7140;
+    --bg-color: #fdfdfd;
+    --text-color: #000000;
+    --hover: hsl(236, 68%, 48%);
+
+    --big-font: 3.2rem;
+    --medium-font: 1.8rem;
+    --p-font: 0.941rem;
+  }
+  section {
+    padding: 50px 10%;
+  }
+  body.active {
+    --text-color: #fff;
+    --bg-color: #0f0c27;
+  }
+  body {
+    background: var(--bg-color);
+    color: var(--text-color);
+  }
+  *::selection {
+    color: var(--bg-color);
+    background: var(--main-color);
+  }
+
+
+
+
+    :root{
+      --black:#2c2c54;
+      --orange:#ff9f1a;
+    }
+
+    *{
+      font-family: 'Nunito', sans-serif;
+      margin: 0; padding:0;
+      box-sizing: border-box;
+      outline: none; border:none;
+      text-decoration: none;
+      text-transform: capitalize;
+      transition: all .2s linear;
+    }
+
+    section{
+      padding:2rem 9%;
+    }
+
+    .heading{
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 4rem;
+      color:var(--black);
+      padding:1rem;
+      text-align: center;
+      margin-top: 5%;
+    }
+
+    .heading span{
+      text-transform: uppercase;
+      color:var(--orange);
+    }
+
+
+    header{
+      position: fixed;
+      top:0; left:0; right:0;
+      z-index: 1000;
+      background:var(--orange);
+      padding:.8rem 3%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    }
+
+
+    header .navbar a{
+      font-size: 1.7rem;
+      color:var(--black);
+      margin:0 1rem;
+    }
+
+    header .navbar a:hover{
+      color: #fff;
+    }
+
+    header .icons a{
+      font-size: 2.5rem;
+      color:var(--black);
+      margin-left:2rem;
+    }
+
+    header .icons a:hover{
+      color: #fff;
+    }
+
+    #menu-bar{
+      font-size: 2.5rem;
+      padding: .5rem 1.5rem;
+      border:.1rem solid var(--black);
+      color:var(--black);
+      border-radius: .3rem;
+      cursor: pointer;
+      display: none;
+    }
+
+p{
+    margin-top: 3%;
+    margin-bottom: 1rem;
+    margin-left: 60%;
+    margin-right: -55%;
+    font-size: 12pt;
+    border: 0.1rem solid black;
+    padding: 10%;
+    border-radius: 10px;
+}
+
+.isi p {
+    margin-top: 2%;
+    margin-bottom: 1rem;
+    margin-left: 19.5%;
+    margin-right: -55%;
+    font-size: 12pt;
+    padding: 41px;
+    width: 895px;
+    border-radius: 10px;
+}
+
+.isi{
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+output {
+    display: inline-block;
+}
+
+
+.teks-faq{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: bold;
+}

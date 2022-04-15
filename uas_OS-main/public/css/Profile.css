@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+*:focus{
+    outline: none;
+}
+.box{
+    box-sizing: border-box;
+    width: 600px;
+    height: 450px;
+    border: 2px solid wheat;
+    box-shadow: -3px -3px 7px black, 3px 3px 5px rgba(94, 104, 121, 0, 288);
+    border-radius: 5%;
+    background-color:  rgb(221, 220, 220);
+    margin-top: 85px;
+    overflow: hidden;
+}
+
+input[type="password"],
+input[type="tel"],
+input[type="text"],
+input[type="email"]{
+    display: block;
+    box-sizing: border-box;
+    background: none;
+    color: black;
+    margin-bottom: 30px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+input[type="password"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus{
+    border-bottom: 2px solid wheat;
+    border-bottom-right-radius:20px ;
+    color: black;
+    transition: 0.2s ease;
+}
+button{
+    border: 1px solid wheat;
+    background-color: rgb(126, 121, 121);
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0px;
+    transition: all 0.3s;
+}
+button:hover{
+    transform:scale(1.1) ;
+}
+input[type="file"]{
+    display: none;
+}
+label{
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: rgb(126, 121, 121);
+    color: white;
+    border: 1px solid white;
+    padding: 2px 15px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+label:hover{
+    background-color: rgb(0, 0, 0);
+    color: wheat;
+}
+
+.tulisan{
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.teks-profil{
+    margin-top: 85px;
+    margin-bottom: -70px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}

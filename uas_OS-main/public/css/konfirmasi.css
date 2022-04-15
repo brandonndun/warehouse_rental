@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+  --black:#2c2c54;
+  --orange:#ff9f1a;
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin: 0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top:6rem;
+  scroll-behavior: smooth;
+}
+
+.btn2{
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: .5rem;
+  border:.1rem solid var(--black);
+  font-weight: bolder;
+  font-size: 1.7rem;
+  color:var(--black);
+  cursor: pointer;
+  background:#fff;
+  padding:.5rem 1rem;
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: .5rem;
+  border:.1rem solid var(--black);
+  font-weight: bolder;
+  font-size: 1.7rem;
+  color:var(--black);
+  cursor: pointer;
+  background:#fff;
+  padding:.5rem 1rem;
+}
+
+.btn:hover{
+  background:var(--orange);
+  color:#fff;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    /* font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: bold; */
+}
+form{
+    width: 600px;
+    margin: 125px auto 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 10px #d3b98afb, 0 4px 0 #d3b98afb;
+    color: #000000;
+}
+h1{
+    text-align: center;
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.box1{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 15px 0;
+    background-color: #f1efe8;
+
+}
+.div1{
+    display: inline-block;
+}
+.btn9{
+
+    display: inline-block;
+
+    border:.1rem solid var(--black);
+    font-weight: bolder;
+    font-size: 1.7rem;
+    color:var(--black);
+    cursor: pointer;
+    width: 49%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #f0e9d7;
+    padding:.5rem 1rem;
+}
+.btn9:hover{
+    background:var(--orange);
+    color:#fff;
+}
+.b{
+    text-align: center;
+   font-size: 14px;
+}
+.a{
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
